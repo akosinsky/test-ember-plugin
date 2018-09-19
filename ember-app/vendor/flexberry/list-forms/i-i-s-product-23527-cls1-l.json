@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-product-23527-cls1-e",
+  "editForm": "i-i-s-product-23527-cls1-e",
+  "external": false,
+  "caption": "Cls1",
+  "name": "IISProduct_23527Cls1L",
+  "className": "Cls1L",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-product-23527-cls1",
+      "modelProjection": "Cls1L"
+    }
+  ]
+}

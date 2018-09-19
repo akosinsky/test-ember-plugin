@@ -1,0 +1,44 @@
+﻿{
+  "applicationCaption": "Приложение",
+  "applicationTitle": "Приложение",
+  "items": [
+    {
+      "link": null,
+      "menuName": "приложение",
+      "caption": "приложение",
+      "title": "приложение",
+      "children": [
+        {
+          "link": "i-i-s-product-23527-cls1-l",
+          "menuName": null,
+          "caption": "Cls1",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": null,
+          "menuName": "new-folder2",
+          "caption": "NewFolder2",
+          "title": "NewFolder2",
+          "children": [
+            {
+              "link": "i-i-s-product-23527-cls1-e",
+              "menuName": null,
+              "caption": "Cls1",
+              "title": "Cls1",
+              "children": null
+            },
+            {
+              "link": null,
+              "menuName": "new-folder3",
+              "caption": "NewFolder3",
+              "title": "NewFolder3",
+              "children": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

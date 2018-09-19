@@ -1,0 +1,15 @@
+﻿version: '3'
+services:
+  FlexberryPostgres:
+    image: "flexberry/postgres/product_23527:latest"
+    volumes:
+      - FlexberryPostgresProduct_23527DB:/var/lib/pgsql/data/
+    ports:
+     - "5432:5432"
+  FlexberryApp:
+    image: "flexberry/app/product_23527:latest"
+    ports:
+     - "1818:880"
+
+volumes:
+  FlexberryPostgresProduct_23527DB: 

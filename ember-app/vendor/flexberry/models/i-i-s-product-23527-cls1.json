@@ -1,0 +1,95 @@
+﻿{
+  "name": "IISProduct_23527Cls1",
+  "modelName": "i-i-s-product-23527-cls1",
+  "className": "Cls1",
+  "nameSpace": "IIS.Product_23527",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "attr4",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true
+    },
+    {
+      "name": "attr3",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true
+    },
+    {
+      "name": "attr1",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "Cls1E",
+      "modelName": "i-i-s-product-23527-cls1",
+      "attrs": [
+        {
+          "name": "attr1",
+          "caption": "aaaa",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "attr3",
+          "caption": "mmmmm",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "attr4",
+          "caption": "",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "Cls1L",
+      "modelName": "i-i-s-product-23527-cls1",
+      "attrs": [
+        {
+          "name": "attr1",
+          "caption": "Attr1",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ViewE",
+      "modelName": "i-i-s-product-23527-cls1",
+      "attrs": [
+        {
+          "name": "attr1",
+          "caption": "",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
