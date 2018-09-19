@@ -9,7 +9,7 @@ RUN	cd /backend-src ; \
 	msbuild /p:Configuration=Release $PROJECT.sln ;
 
 
-FROM danlynn/ember-cli:2.4.3 as frontend
+FROM flexberry/mono-ember as frontend
 
 COPY ember-app/vendor /ember-app/vendor
 
